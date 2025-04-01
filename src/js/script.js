@@ -19,3 +19,13 @@ console.log(valor)
 let exemplo1={};
 // Array
 let exemplo2=[];
+
+
+// TIPOS DE VARIAVEIS
+let exemplo3  = 10;
+console.log(typeof exemplo3)
+
+// CONVERSÕES
+
+
+
