@@ -157,17 +157,32 @@ switch(time){
 //      console.log("O valor de I é: ", i)
 //     }
 
-let w = 0;
+// let w = 0;
 
-while(w <= 10)
-    {
-console.log("O valor de w é: " ,w )
-w++;
-    }
+// while(w <= 10)
+//     {
+// console.log("O valor de w é: " ,w )
+// w++;
+//     }
 
-    let z = 10;
+//     let z = 10;
 
-    do{
-        console.log("Do while é: ", z);
-        z++;
-    }while(z <= 100)
+//     do{
+//         console.log("Do while é: ", z);
+//         z++;
+//     }while(z <= 100)
+
+
+        function saudacao(nome)
+        {
+        console.log("Seja bem vindo, " , nome)
+        console.log(`Seja bem vindo ${nome}`)
+        }
+
+        saudacao("Jejeh")
+
+        function semaforo(){
+            let sinal = "amarelo";
+            console.log(`O semáforo está: ${sinal}`)
+        }
+        semaforo();
