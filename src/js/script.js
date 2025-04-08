@@ -96,37 +96,78 @@
 
 // Estrutura condicional
 
-let valor = 100;
+// let valor = 100;
 
-if(valor == 100){
-    console.log("Valor é igual")
+// if(valor == 100){
+//     console.log("Valor é igual")
+// }
+
+// if(valor == 100)
+//     {
+//         console.log("Valor é igual")
+//     }else
+//     {
+//         console.log("Valor não é igual")
+//     }
+
+
+//     let idade = 14;
+
+//     if(idade < 14)
+//         {
+//          console.log("Não pode entrar")
+//         } else if(idade >= 14 && idade < 18)
+//             {
+//                 console.log("Pode entrar")
+//             } else 
+//             {
+//                 console.log("Você não tem idade para isso")
+//             }
+
+
+// // condição ternária "?" é o if e ":" o else
+
+// let valor2 =300;
+// let resultado = valor2 == 300 ? "Certo" : "Errado";
+// console.log(resultado) 
+
+//SWITCH CASE
+
+let time = "Corinthians";
+
+switch(time){
+    case "Corinthians":
+        console.log("Melhor time do mundo")
+        break;
+        case "São Paulo":
+            console.log("Não é time")
+            break;
+            case "Palmeiras":
+                console.log("Não tem mundial")
+                break;
+            default:
+                console.log("Nenhuma das opções")    
 }
 
-if(valor == 100)
+
+// // Laço de repetição
+
+// for(let i=0;i<10;i++)
+//     {
+//      console.log("O valor de I é: ", i)
+//     }
+
+let w = 0;
+
+while(w <= 10)
     {
-        console.log("Valor é igual")
-    }else
-    {
-        console.log("Valor não é igual")
+console.log("O valor de w é: " ,w )
+w++;
     }
 
+    let z = 10;
 
-    let idade = 14;
-
-    if(idade < 14)
-        {
-         console.log("Não pode entrar")
-        } else if(idade >= 14 && idade < 18)
-            {
-                console.log("Pode entrar")
-            } else 
-            {
-                console.log("Você não tem idade para isso")
-            }
-
-
-// condição ternária "?" é o if e ":" o else
-
-let valor2 =300;
-let resultado = valor2 == 300 ? "Certo" : "Errado";
-console.log(resultado) 
+    do{
+        console.log("Do while é: ", z);
+        z++;
+    }while(z <= 100)
