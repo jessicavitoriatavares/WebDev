@@ -87,9 +87,46 @@
 // Operadoares de comparação
 
 
-const num5 = 20;
-const num6 = 30;
+// const num5 = 20;
+// const num6 = 30;
 
-console.log(num5 == num6);
-console.log(num5 === num6);
-console.log(num5 != num6);
+// console.log(num5 == num6);
+// console.log(num5 === num6);
+// console.log(num5 != num6);
+
+// Estrutura condicional
+
+let valor = 100;
+
+if(valor == 100){
+    console.log("Valor é igual")
+}
+
+if(valor == 100)
+    {
+        console.log("Valor é igual")
+    }else
+    {
+        console.log("Valor não é igual")
+    }
+
+
+    let idade = 14;
+
+    if(idade < 14)
+        {
+         console.log("Não pode entrar")
+        } else if(idade >= 14 && idade < 18)
+            {
+                console.log("Pode entrar")
+            } else 
+            {
+                console.log("Você não tem idade para isso")
+            }
+
+
+// condição ternária "?" é o if e ":" o else
+
+let valor2 =300;
+let resultado = valor2 == 300 ? "Certo" : "Errado";
+console.log(resultado) 
